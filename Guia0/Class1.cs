@@ -124,6 +124,32 @@ namespace Guia0
 
         }
 
+        public void CompararCadenas() {
+
+
+            string cadena, cadena1;
+
+            Console.WriteLine("ingrese una cadena");
+            cadena = Console.ReadLine();
+            Console.WriteLine("ingrese otra cadena");
+            cadena1 = Console.ReadLine();
+
+            if (cadena.Length == cadena1.Length)
+            {
+                Console.WriteLine("Las cadenas tienen igual longitud");
+
+            }
+            else
+            {
+                Console.WriteLine("Las cadenas tienen distinta longitud");
+
+
+            }
+
+
+
+        }
+
     }
 
 

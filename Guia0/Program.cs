@@ -13,7 +13,10 @@ namespace Guia0
 
             Class1 clase = new Class1();
 
-            clase.NombreYfin();
+
+            clase.CompararCadenas();
+
+            //clase.NombreYfin();
 
            // clase.FrasesFin();
 
